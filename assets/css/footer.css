@@ -1,0 +1,22 @@
+.footer {
+	background-color: #fafafa;
+	height: 5rem;
+	font-size: 1.5rem;
+}
+
+.box {
+	display: flex;
+	flex-direction:row;
+	margin: 0 10rem;
+}
+
+.links {
+	text-decoration: none;
+	color: #008B8B;
+	margin-right: 1.5rem;
+}
+
+.footer-end {
+	color: #888;
+	margin-left: 5rem;
+}

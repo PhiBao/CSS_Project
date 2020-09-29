@@ -1,0 +1,55 @@
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: white;
+	z-index: 1;
+}
+
+.header-container {
+	height: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: solid 1px #CCC;
+}
+
+.title-header {
+	font-family: Lobster Two, sans-serif;
+	font-size: 3rem;
+	position: relative;
+	bottom: 0.3rem;
+	right: 12rem;
+}
+
+.form-search {
+	position: relative;
+	bottom: 0.3rem;
+	right: 5.5rem;
+	font-size: 2rem;
+}
+
+.box-icon {
+	display: inline-block;
+	word-spacing: 1rem;
+	font-size: 3rem;
+	position: relative;
+	bottom: 0.3rem;
+	left: 12rem;
+}
+
+.links-home {
+	text-decoration: none;
+	color: var(--font-color);
+	padding: 0 10rem 0 0;
+}
+
+.header-links {
+	color: var(--font-color);
+}
+
+@font-face {
+  font-family: Lobster Two;
+  src: url(../LobsterTwo-Bold.ttf);
+}
+
